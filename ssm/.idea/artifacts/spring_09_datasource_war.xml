@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring_09_datasource:war">
+    <output-path>$PROJECT_DIR$/spring_09_datasource/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring_09_datasource</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring_09_datasource-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring_09_datasource:war exploded" />
+    </root>
+  </artifact>
+</component>

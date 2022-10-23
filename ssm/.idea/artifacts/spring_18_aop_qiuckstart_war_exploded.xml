@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring_18_aop_qiuckstart:war exploded">
+    <output-path>$PROJECT_DIR$/spring_18_aop_qiuckstart/target/spring_18_aop_qiuckstart</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>spring_18_aop_qiuckstart</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring_18_aop_qiuckstart" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/spring_18_aop_qiuckstart/target/spring_18_aop_qiuckstart/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring_18_aop_qiuckstart/web/Web" />
+    </root>
+  </artifact>
+</component>

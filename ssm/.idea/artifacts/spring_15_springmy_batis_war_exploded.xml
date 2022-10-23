@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring_15_springmy_batis:war exploded">
+    <output-path>$PROJECT_DIR$/spring_15_springmy_batis/target/spring_15_springmy_batis</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>spring_15_springmy_batis</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring_15_springmy_batis" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/spring_15_springmy_batis/target/spring_15_springmy_batis/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring_15_springmy_batis/web/Web" />
+    </root>
+  </artifact>
+</component>

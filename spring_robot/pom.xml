@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>spring_robot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>spring_robot</name>
+    <description>spring_robot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <simbot.version>2.0.3</simbot.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>love.forte.simple-robot</groupId>
+                <artifactId>parent</artifactId>
+                <version>${simbot.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!--java机器人框架-->
+    <dependencies></dependencies>
+    <dependency>
+        <groupId>love.forte.simple-robot</groupId>
+        <artifactId>component-mirai-spring-boot-starter</artifactId>
+    </dependency>
+    <dependencies></dependencies>
+</project>

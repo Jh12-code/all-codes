@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:coctext="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="studentOne" class="com.itheima.spring.pojo.Student"></bean>
+
+    <bean id="studentTwo" class="com.itheima.spring.pojo.Student">
+        <property name="id" value="1"></property>
+        <property name="sname" value="张三"></property>
+        <property name="age" value="24"></property>
+        <property name="gender" value="女"></property>
+    </bean>
+
+    <bean id="studentThree" class="com.itheima.spring.pojo.Student">
+        <constructor-arg value="2"></constructor-arg>
+        <constructor-arg value="李四"></constructor-arg>
+        <constructor-arg value="男"></constructor-arg>
+        <constructor-arg value="25" name="core"></constructor-arg>
+    </bean>
+
+
+    <bean name="studentFive" class="com.itheima.spring.pojo.Student">
+        <property name="id" value="3"></property>
+        <property name="sname" value="王五"></property>
+        <property name="age" value="45"></property>
+        <property name="gender" value="男"></property>
+        <property name="core" value="98"></property>
+        <!--<property name="clazz" ref="classOne"></property>-->
+        <property name="clazz">
+            <bean id="clazzTwo" class="com.itheima.spring.pojo.Clazz">
+                <property name="clazzId" value="222"></property>
+                <property name="clazzName" value="远大班"></property>
+            </bean>
+        </property>
+
+        <property name="hobby">
+            <array>
+                <value>抽烟</value>
+                <value>喝酒</value>
+                <value>烫头</value>
+            </array>
+        </property>
+
+        <property name="teacherMap">
+            <map>
+                <entry key="10086" value-ref="teacherOne"></entry>
+                <entry key="10010" value-ref="teacherTwo"></entry>
+            </map>
+        </property>
+    </bean>
+
+
+    <bean id="teacherOne" class="com.itheima.spring.pojo.Teacher">
+        <property name="tid" value="10086"></property>
+        <property name="tName" value="大宝"></property>
+    </bean>
+    <bean id="teacherTwo" class="com.itheima.spring.pojo.Teacher">
+        <property name="tid" value="10010"></property>
+        <property name="tName" value="小宝"></property>
+    </bean>
+
+    <bean id="clazzOne" class="com.itheima.spring.pojo.Clazz">
+        <property name="clazzId" value="111"></property>
+        <property name="clazzName" value="牛逼轰轰轰"></property>
+        <property name="students" ref="studentList"></property>
+
+        <!--<property name="students">
+            <list>
+                <ref bean="studentOne"></ref>
+                <ref bean="studentTwo"></ref>
+                <ref bean="studentThree"></ref>
+            </list>
+        </property>-->
+    </bean>
+    <util:list id="studentList">
+        <ref bean="studentOne"></ref>
+        <ref bean="studentTwo"></ref>
+    </util:list>
+
+    <util:map id="teacherMap">
+        <entry key="10086" value-ref="teacherOne"></entry>
+        <entry key="10010" value-ref="teacherOne"></entry>
+    </util:map>
+
+    <bean id="studentSix" class="com.itheima.spring.pojo.Student"
+          p:id="105" p:sname="小明" p:teacherMap-ref="teacherMap">
+    </bean>
+    <bean id="druidDataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="username" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+    <coctext:property-placeholder location="classpath:jdbc.properties"></coctext:property-placeholder>
+</beans>

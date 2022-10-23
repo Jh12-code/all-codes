@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring_01_quickstart" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_04_bean_lifecycle" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_09_datasource" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_15_springmy_batis" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_18_aop_qiuckstart" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring_01_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_04_bean_lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../itheima/第三阶段-Java开发框架/SSM2022/01-spring/day01/代码/spring_07_di_autoware/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_09_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_15_springmy_batis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_18_aop_qiuckstart/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

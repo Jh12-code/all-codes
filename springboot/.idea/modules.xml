@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart_springboot_01/quickstart_springboot_01.iml" filepath="$PROJECT_DIR$/quickstart_springboot_01/quickstart_springboot_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_04_mybatis/springboot_04_mybatis.iml" filepath="$PROJECT_DIR$/springboot_04_mybatis/springboot_04_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_06_mybatis_plus/springboot_06_mybatis_plus.iml" filepath="$PROJECT_DIR$/springboot_06_mybatis_plus/springboot_06_mybatis_plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../itheima/springboot/1.基础篇-资料/SpringBoot—资料/SpringBoot—资料/源代码/springboot/springboot_07_druid/springboot_07_druid.iml" filepath="$PROJECT_DIR$/../../../itheima/springboot/1.基础篇-资料/SpringBoot—资料/SpringBoot—资料/源代码/springboot/springboot_07_druid/springboot_07_druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_base_01/springboot_base_01.iml" filepath="$PROJECT_DIR$/springboot_base_01/springboot_base_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_junit01/springboot_junit01.iml" filepath="$PROJECT_DIR$/springboot_junit01/springboot_junit01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_ssmp/springboot_ssmp.iml" filepath="$PROJECT_DIR$/springboot_ssmp/springboot_ssmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_ssmp02/springboot_ssmp02.iml" filepath="$PROJECT_DIR$/springboot_ssmp02/springboot_ssmp02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_ssmp03/springboot_ssmp03.iml" filepath="$PROJECT_DIR$/springboot_ssmp03/springboot_ssmp03.iml" />
+    </modules>
+  </component>
+</project>

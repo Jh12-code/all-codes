@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="foryou:war">
+    <output-path>$PROJECT_DIR$/../../../code/java_server-master/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>foryou</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="foryou.war">
+      <element id="artifact" artifact-name="foryou:war exploded" />
+    </root>
+  </artifact>
+</component>

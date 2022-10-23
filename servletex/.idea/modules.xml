@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../wps/JavaWeb/day09-Request&amp;Response/代码/request-demo/request-demo.iml" filepath="$PROJECT_DIR$/../../../wps/JavaWeb/day09-Request&amp;Response/代码/request-demo/request-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet-demo1/servlet-demo1.iml" filepath="$PROJECT_DIR$/servlet-demo1/servlet-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletdemo/servletdemo.iml" filepath="$PROJECT_DIR$/servletdemo/servletdemo.iml" />
+    </modules>
+  </component>
+</project>

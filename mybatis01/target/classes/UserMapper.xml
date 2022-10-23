@@ -1,0 +1,10 @@
+
+<!--
+    namespace:名称空间。必须是对应接口的全限定名
+-->
+<mapper namespace="test">
+    <select id="selectAll" resultType="com.itheima.pojo.User">
+        select *
+        from tb_user;
+    </select>
+</mapper>

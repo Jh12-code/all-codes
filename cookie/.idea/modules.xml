@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cookie.iml" filepath="$PROJECT_DIR$/.idea/cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cookie-demo/cookie-demo.iml" filepath="$PROJECT_DIR$/../cookie-demo/cookie-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../filter-demo/filter-demo.iml" filepath="$PROJECT_DIR$/../filter-demo/filter-demo.iml" />
+    </modules>
+  </component>
+</project>
